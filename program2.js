@@ -25,3 +25,13 @@ function romanToInt(s) {
 
     return result;
 }
+
+// Test cases
+console.log(romanToInt("III"));      
+console.log(romanToInt("LVIII"));    
+console.log(romanToInt("MCMXCIV"));  
+console.log(romanToInt("X"));        
+console.log(romanToInt("IV"));       
+console.log(romanToInt("IX"));       
+console.log(romanToInt("MMMCMXCIX"));
+console.log(romanToInt(""));         
