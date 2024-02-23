@@ -25,3 +25,13 @@ function romanToInt(s) {
 
     return result;
 }
+
+// Test cases
+console.log(romanToInt("III"));      // Output: 3
+console.log(romanToInt("LVIII"));    // Output: 58
+console.log(romanToInt("MCMXCIV"));  // Output: 1994
+console.log(romanToInt("X"));        // Output: 10
+console.log(romanToInt("IV"));       // Output: 4
+console.log(romanToInt("IX"));       // Output: 9
+console.log(romanToInt("MMMCMXCIX"));// Output: 3999
+console.log(romanToInt(""));         // Output: 0
